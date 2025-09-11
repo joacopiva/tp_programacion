@@ -1,4 +1,4 @@
-## Funciones que faltan: [egreso (se empareja con el ID)], [funcion de registrar nuevo usuario y dar de baja (PALO)], [ingreso de camiones (), ingreso de internos], [mostrar las listas de empleados, camiones (EITO)]
+## Funciones que faltan: [egreso (se empareja con el ID) (PALO)], [funcion de registrar nuevo usuario y dar de baja (PALO)], [ingreso de camiones, ingreso de internos(MATEO)], [mostrar las listas de empleados, camiones (EITO)]
 ##
 
 
@@ -34,7 +34,7 @@ def empleados_ingreso(estado):
   now = datetime.today()
 
  # if estado == True:
-  if ingreso_internos == True: ## Buscar si existen los empleados mediante un For
+  if ingreso_internos == True: ## Buscar si existen los empleados mediante un For JOACO
 
     print("Error: El empleado con ID", id_empleado, "ya tiene un ingreso activo.")
   else:
